@@ -1,0 +1,77 @@
+{
+  "quizzes": [
+    {
+      "id": "mock-quiz-1",
+      "title": "Biology & Cells Trivia",
+      "description": "Test your understanding of cellular structures and basic plant biology.",
+      "created_by": "mock-teacher-uuid-2222",
+      "created_by_name": "Mrs. Clara Smith",
+      "created_at": "2026-07-21T10:08:48.772Z",
+      "questions": [
+        {
+          "id": "q1",
+          "quiz_id": "mock-quiz-1",
+          "question_text": "Which organelle is known as the powerhouse of the cell?",
+          "question_type": "mcq",
+          "options": [
+            "Mitochondria",
+            "Nucleus",
+            "Ribosome",
+            "Chloroplast"
+          ],
+          "correct_answer": 0
+        },
+        {
+          "id": "q2",
+          "quiz_id": "mock-quiz-1",
+          "question_text": "Plants absorb light energy using a green pigment called ______.",
+          "question_type": "fill_in_the_blanks",
+          "correct_answer": "chlorophyll"
+        },
+        {
+          "id": "q3",
+          "quiz_id": "mock-quiz-1",
+          "question_text": "Match the organ with its primary organ system:",
+          "question_type": "matching",
+          "options": {
+            "left": [
+              "Heart",
+              "Brain",
+              "Lungs"
+            ],
+            "right": [
+              "Respiratory",
+              "Circulatory",
+              "Nervous"
+            ]
+          },
+          "correct_answer": {
+            "Heart": "Circulatory",
+            "Brain": "Nervous",
+            "Lungs": "Respiratory"
+          }
+        }
+      ]
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub-4nd8k1f",
+      "quiz_id": "mock-quiz-1",
+      "student_id": "mock-student-uuid-3333",
+      "student_name": "Alex Johnson",
+      "score": 3,
+      "total_questions": 3,
+      "answers": {
+        "q1": 0,
+        "q3": {
+          "Heart": "Circulatory",
+          "Brain": "Nervous",
+          "Lungs": "Respiratory"
+        },
+        "q2": "Chlorophyll"
+      },
+      "submitted_at": "2026-07-26T10:18:35.300Z"
+    }
+  ]
+}
